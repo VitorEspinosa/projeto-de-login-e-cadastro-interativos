@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background-image: url(../assets/img/imagem-lobby2.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: initial;
+  color: #e5e9f0;
+  line-height: 1.6;
+}
+
+button, a {
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background: none;
+    color: white;
+    border: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Cabeçalho */
+.site-header {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;;
+  background: #000000;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #1f2a44;
+}
+
+.site-header .brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+.site-header .tagline {
+  font-size: 1rem;
+  color: #aab7d1;
+}
+
+/* Sessões */
+.bloco {
+  background: #121d33;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.bloco h2 {
+  color: #4a90e2;
+  margin-bottom: 12px;
+}
+
+.bloco p, .bloco li {
+  margin-bottom: 10px;
+}
+
+/* FAQ */
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-item h3 {
+  color: #81a9f5;
+  margin-bottom: 5px;
+}
+
+/* Redes sociais */
+.redes {
+  list-style: none;
+}
+
+.redes li a {
+  color: #cfd8f3;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.redes li a:hover {
+  color: #4a90e2;
+}
+
+/* Formulário de mensagem */
+.form-mensagem input,
+.form-mensagem textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #2a3550;
+  border-radius: 8px;
+  background: #0a0f1c;
+  color: #e5e9f0;
+  font-size: 1rem;
+}
+
+.form-mensagem input:focus,
+.form-mensagem textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.btn-enviar {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+  background: #366bb3;
+}
+
+
+/* Rodapé */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background: #101a30;
+  border-top: 2px solid #1f2a44;
+  font-size: 0.9rem;
+  color: #aab7d1;
+}

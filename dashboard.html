@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Usuário</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container dashboard-container">
+        <h1>Ingressos <br> Para o Show</h1>
+
+        <div class="user-info">
+            <p>Bem-vindo, <span id="dashboard-username"></span>!</p>
+            <p>Seu email: <span id="dashboard-email"></span></p>
+            </div>
+
+        <div class="dashboard-options">
+    <h2>Opções:</h2>
+    <ul>
+        <!-- Comprar Ingressos -->
+        <!-- Comprar Ingressos -->
+<li>
+    <details>
+        <summary>Comprar Ingressos</summary>
+        <p>Escolha entre as opções:</p>
+
+        <br>
+
+        <!-- Ingresso Normal -->
+        <div class="ticket">
+            <h4>Arquibancada Normal</h4>
+            <p>R$ 150,00</p>
+            <p>Ótima opção para quem quer curtir o show em boa localização.</p>
+        </div>
+
+        <!-- Ingresso VIP -->
+        <div class="ticket">
+            <h4>Camarote VIP</h4>
+            <p>R$ 500,00</p>
+            <p>Melhor experiência com visão privilegiada, open bar e área exclusiva.</p>
+        </div>
+
+    </details>
+</li>
+
+
+
+        <!-- Músicas -->
+        <li>
+            <details>
+                <summary>Músicas De Toninho e Raguel</summary>
+                <div class="album">
+                    <h4>Vida de <br> Solteiro</h4>
+                    <img src="assets/img/album1.png" alt="Álbum 1" width="100">
+                    <ul>
+                        <li>Coração na Estrada</li>
+                        <li>Aquela bendita Mulher</li>
+                        <li>Amor de Boteco</li> 
+                    </div>
+                <hr>
+                <div class="album">
+                    <h4>Volta <br>por Cima</h4>
+                    <img src="assets/img/album2.png" alt="Álbum 2" width="100">
+                    <ul>
+                        <li>Estrada de Chão</li>
+                        <li>Cicatrizes do Sertão</li>
+                        <li>Rancho de Saudade</li>
+                    </ul>
+                </div>
+            </details>
+        </li>
+
+        <!-- Biografia -->
+        <li>
+            <details>
+                <summary>Biografia Toninho e Raguel</summary>
+                <p>
+                    Amigos de infância, Toninho e Raquel cresceram no interior do Brasil enfrentando 
+                    as dificuldades da vida simples. Ainda jovens, começaram a cantar em festas de
+                     roça e quermesses, transformando sonhos em canções. Hoje, levam para os palcos 
+                     de todo o país a essência do sertão, unindo emoção, amizade e verdade em cada melodia.
+                </p>
+            </details>
+        </li>
+    </ul>
+</div>
+
+    <a href="links-extras/suporte.html">Suporte</a>
+
+
+        <button id="logout-btn" class="logout-button">Sair</button>
+    </div>
+
+    <script src="js/auth.js"></script> <script src="js/dashboard.js"></script>
+</body>
+
+</html>
+
+
