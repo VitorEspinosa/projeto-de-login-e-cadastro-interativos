@@ -25,7 +25,7 @@ Esté é um site focado em demonstrar as funções de login e cadastro, com uma 
 
  1. **Clonar o repositório**:
    git clone https://github.com/VitorEspinosa/projeto-de-login-e-cadastro-interativos.git
- 2. **Entre pelo site**;
+ 2. Ou **Entre pelo site**;
     https://vitorespinosa.github.io/projeto-de-login-e-cadastro-interativos/
 
 
